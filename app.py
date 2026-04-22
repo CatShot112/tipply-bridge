@@ -344,10 +344,21 @@ class TipplyBridgeApp:
 
     # --- SYSTEM TRAY ---
     def create_image(self):
-        image = Image.new('RGB', (64, 64), color=(30, 30, 30))
-        draw = ImageDraw.Draw(image)
-        draw.text((16, 24), "TB", fill=(46, 204, 113))
-        return image
+        # Magiczna ścieżka dla PyInstallera (żeby exe widział plik wewnątrz siebie)
+        icon_path = "logo.ico"
+        if hasattr(sys, '_MEIPASS'):
+            icon_path = os.path.join(sys._MEIPASS, "logo.ico")
+
+        try:
+            # Próba załadowania Twojego logo
+            return Image.open(icon_path)
+        except Exception:
+            # Fallback - jeśli nie znajdzie pliku logo.ico, rysuje stare "TB"
+            self.logger.warning("Nie znaleziono logo.ico, ładuję ikonę domyślną.")
+            image = Image.new('RGB', (64, 64), color=(30, 30, 30))
+            draw = ImageDraw.Draw(image)
+            draw.text((16, 24), "TB", fill=(46, 204, 113))
+            return image
 
     def hide_window(self):
         self.root.withdraw()
