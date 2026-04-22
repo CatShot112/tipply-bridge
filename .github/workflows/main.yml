@@ -16,7 +16,7 @@ jobs:
         pip install customtkinter requests "python-socketio[client]<5" "python-engineio<4" pystray Pillow pyinstaller
     - name: Kompiluj przez PyInstaller
       run: |
-        pyinstaller --onefile --windowed app.py
+        pyinstaller --onefile --windowed --icon=logo.ico app.py
     - name: Wrzuć gotowy plik .exe jako Artefakt
       uses: actions/upload-artifact@v4
       with:
