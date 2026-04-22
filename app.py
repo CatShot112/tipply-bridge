@@ -45,6 +45,7 @@ class TipplyBridgeApp:
     def __init__(self, root):
         self.root = root
         self.root.title("Tipply Bridge by SZABLIX")
+        self.root.iconbitmap("logo.ico")
         self.root.geometry("650x450")
         self.root.resizable(False, False)
 
