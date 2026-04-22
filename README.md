@@ -28,4 +28,9 @@ Nie musisz znać się na programowaniu ani instalować Pythona!
 3. Uruchom program i postępuj zgodnie z instrukcjami na ekranie, aby podać swoje tokeny.
 4. Kliknij **START** i ciesz się połączonymi systemami!
 
-
+**Jeśli uruchamiasz program na Linuxie najpierw zainstaluj pakiet wine do obsługi programów .exe. Komenda instalacji będzie rożnić się w zależności od dystrybucji z jakiej korzystasz.**
+**Debian/Ubuntu:**
+sudo apt update
+sudo apt install wine
+**ArchLinux (oraz Arch-based dystrybucje)**
+sudo pacman -Syu wine
