@@ -19,9 +19,11 @@ Zbudowany z myślą o streamerach, którzy chcą używać alertów StreamElement
 ## 📸 Zrzuty ekranu
 
 Ekran główny:
+
 ![Ekran Główny](screenshot.png)
 
-Przekazany donate w StreamElements, zakładka Revenue history
+Przekazany donate w StreamElements, zakładka **Revenue history**:
+
 ![Przekazany donejt w SE](Screenshot_20260422-225036_Chrome.png)
 
 ## 🚀 Jak zacząć? (Dla użytkowników Windowsa)
