@@ -18,7 +18,6 @@ Zbudowany z myślą o streamerach, którzy chcą używać alertów StreamElement
 
 ## 📸 Zrzuty ekranu
 
-*(Tutaj dodaj link do zrzutu ekranu swojego programu, jak już wrzucisz go na GitHuba)*
 ![Ekran Główny](screenshot.png)
 
 ## 🚀 Jak zacząć? (Dla użytkowników)
