@@ -20,7 +20,7 @@ Zbudowany z myślą o streamerach, którzy chcą używać alertów StreamElement
 
 ![Ekran Główny](screenshot.png)
 
-## 🚀 Jak zacząć? (Dla użytkowników)
+## 🚀 Jak zacząć? (Dla użytkowników Windowsa)
 
 Nie musisz znać się na programowaniu ani instalować Pythona!
 1. Przejdź do zakładki **[Releases](../../releases)** po prawej stronie.
@@ -28,9 +28,23 @@ Nie musisz znać się na programowaniu ani instalować Pythona!
 3. Uruchom program i postępuj zgodnie z instrukcjami na ekranie, aby podać swoje tokeny.
 4. Kliknij **START** i ciesz się połączonymi systemami!
 
-**Jeśli uruchamiasz program na Linuxie najpierw zainstaluj pakiet wine do obsługi programów .exe. Komenda instalacji będzie rożnić się w zależności od dystrybucji z jakiej korzystasz.**
-**Debian/Ubuntu:**
-sudo apt update
-sudo apt install wine
-**ArchLinux (oraz Arch-based dystrybucje)**
-sudo pacman -Syu wine
+## 🐧 Uruchamianie na systemie Linux
+
+Ze względu na kaprysy nowoczesnych środowisk Linuxowych w obsłudze zasobnika systemowego (Tray), oficjalnie wspieraną i polecaną wersją jest plik `.exe`. 
+
+Dzięki warstwie kompatybilności **Wine**, użytkownicy Linuxa mogą odpalić ten program równie łatwo co na Windowsie, bez wpisywania skomplikowanych komend!
+
+**1. Szybka instalacja Wine:**
+Jeśli jeszcze nie masz Wine, otwórz na moment terminal i wklej jedną z poniższych komend, zależnie od Twojego systemu:
+
+* **Arch Linux / CachyOS / Manjaro:** `sudo pacman -S wine`
+* **Debian / Ubuntu / Linux Mint:** `sudo apt install wine`
+* **Fedora:** `sudo dnf install wine`
+
+**2. Uruchomienie programu (Prościej się nie da!):**
+1. Pobierz gotowy plik `.exe` z zakładki **Releases**.
+2. Otwórz swój folder z Pobraniami.
+3. Kliknij na plik prawym przyciskiem myszy i wybierz **"Otwórz za pomocą: Wine"** (lub na niektórych systemach po prostu **kliknij go dwa razy**!).
+
+Gotowe! Program otworzy się normalnie, a ikonka będzie bez problemu chować się do paska zadań.
+
