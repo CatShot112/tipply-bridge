@@ -7,6 +7,8 @@
 
 Zbudowany z myślą o streamerach, którzy chcą używać alertów StreamElements przy jednoczesnym używaniu polskiej platformy Tipply.
 
+Pomysł na ten projekt podsunął mi przyjaciel [Oliwierdsn](https://youtube.com/@Oliwiedsn) 🫡
+
 ## ✨ Główne funkcje
 
 * ⚡ **Zero Opóźnień (WebSockets):** Program łączy się bezpośrednio z serwerami Tipply z pominięciem przeglądarki. Powiadomienia wpadają ułamek sekundy po wysłaniu donejta.
