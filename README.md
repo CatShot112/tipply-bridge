@@ -3,6 +3,8 @@
 ![Wersja](https://img.shields.io/badge/Wersja-1.0.0-success)
 ![Platforma](https://img.shields.io/badge/Platforma-Windows%20%7C%20Linux-blue)
 
+[![Wesprzyj twórcę](https://img.shields.io/badge/Tipply-Wesprzyj_moją_pracę-blue?style=for-the-badge&logo=coffeescript)](https://tipply.pl/@siematuszablix)
+
 **Tipply Bridge** to lekki, niezawodny i nowoczesny program działający w tle, który w czasie rzeczywistym przechwytuje wpłaty z platformy **Tipply** i natychmiastowo przekazuje je do **StreamElements**.
 
 Zbudowany z myślą o streamerach, którzy chcą używać alertów StreamElements przy jednoczesnym używaniu polskiej platformy Tipply.
