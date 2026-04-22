@@ -13,7 +13,7 @@ Pomysł na ten projekt podsunął mi przyjaciel [Oliwierdsn](https://youtube.com
 
 ## ✨ Główne funkcje
 
-* ⚡ **Zero Opóźnień (WebSockets):** Program łączy się bezpośrednio z serwerami Tipply z pominięciem przeglądarki. Powiadomienia wpadają ułamek sekundy po wysłaniu donejta.
+* ⚡ **Zero Opóźnień (WebSockets):** Program łączy się bezpośrednio z serwerami Tipply z pominięciem przeglądarki. Powiadomienia wpadają ułamek sekundy po wysłaniu donate'a.
 * 🪶 **Ekstremalnie lekki:** Zapomnij o starych skryptach używających Selenium i Chromium. Tipply Bridge zużywa ułamek procenta procesora i pamięci RAM.
 * 🎨 **Nowoczesny Interfejs (Dark Mode):** Eleganckie, gamingowe GUI zbudowane na CustomTkinter.
 * 👻 **Działanie w tle (System Tray):** Kliknij "X", aby ukryć program w zasobniku obok zegarka. Będzie cicho pracował w tle, nie zaśmiecając paska zadań.
@@ -36,7 +36,7 @@ Nie musisz znać się na programowaniu ani instalować Pythona!
 1. Przejdź do zakładki **[Releases](../../releases)** po prawej stronie.
 2. Pobierz najnowszy plik `TipplyBridge_Windows.exe` (działa również na Linuxie - użyj Wine).
 3. Uruchom program i postępuj zgodnie z instrukcjami na ekranie, aby podać swoje tokeny.
-4. Kliknij **START** i ciesz się połączonymi systemami!
+4. Kliknij **START** i ciesz się połączonymi platformami!
 
 ## 🐧 Uruchamianie na systemie Linux
 
