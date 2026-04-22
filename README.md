@@ -18,7 +18,10 @@ Zbudowany z myślą o streamerach, którzy chcą używać alertów StreamElement
 
 ## 📸 Zrzuty ekranu
 
+**Tak wygląda program**
 ![Ekran Główny](screenshot.png)
+
+**Tak wyglada przekazany donate w StreamElements, zakladka Revenue history**
 ![Przekazany donejt w SE](Screenshot_20260422-225036_Chrome.png)
 
 ## 🚀 Jak zacząć? (Dla użytkowników Windowsa)
