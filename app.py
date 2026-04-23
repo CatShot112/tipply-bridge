@@ -9,6 +9,7 @@ import json
 import os
 import platform
 import pystray
+import sys
 from PIL import Image, ImageDraw
 
 # ==========================================
@@ -45,7 +46,17 @@ class TipplyBridgeApp:
     def __init__(self, root):
         self.root = root
         self.root.title("Tipply Bridge by SZABLIX")
-        self.root.iconbitmap("logo.ico")
+        
+        # Inteligentne wczytywanie ikony (szuka w ukrytych plikach .exe)
+        try:
+            if hasattr(sys, '_MEIPASS'):
+                ikona_path = os.path.join(sys._MEIPASS, "logo.ico")
+            else:
+                ikona_path = "logo.ico"
+            self.root.iconbitmap(ikona_path)
+        except Exception:
+            pass # Jeśli nie ma ikony, program po prostu użyje domyślnej
+            
         self.root.geometry("650x450")
         self.root.resizable(False, False)
 
