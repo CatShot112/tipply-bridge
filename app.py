@@ -165,19 +165,19 @@ class TipplyBridgeApp:
 
         if self.wizard_step == 0:
             self.wizard_title.configure(text="Krok 1/3: StreamElements JWT Token")
-            self.wizard_desc.configure(text="Zaloguj się na StreamElements -> Profil -> Channel settings -> Show secrets.\n\nSkopiuj 'JWT Token'.")
+            self.wizard_desc.configure(text="Zaloguj się na StreamElements, klknij awatar w prawym górnym rogu -> Channel settings\n\nSkopiuj 'JWT Token'.")
             self.wizard_entry.insert(0, self.config.get("se_jwt", ""))
             self.btn_wiz_back.configure(state="disabled")
             self.btn_wiz_next.configure(text="Dalej →")
         elif self.wizard_step == 1:
             self.wizard_title.configure(text="Krok 2/3: StreamElements Account ID")
-            self.wizard_desc.configure(text="W tym samym miejscu (Show secrets) skopiuj 'Account ID'.")
+            self.wizard_desc.configure(text="W tym samym miejscu, skopiuj 'Account ID'.")
             self.wizard_entry.insert(0, self.config.get("se_channel_id", ""))
             self.btn_wiz_back.configure(state="normal")
             self.btn_wiz_next.configure(text="Dalej →")
         elif self.wizard_step == 2:
             self.wizard_title.configure(text="Krok 3/3: Twój Widget Tipply")
-            self.wizard_desc.configure(text="Zaloguj się na tipply.pl -> Alerty. Skopiuj link do OBS i wklej go poniżej.")
+            self.wizard_desc.configure(text="Zaloguj się na tipply.pl -> Konfigurator -> Komunikaty o nowej wiadomości. Skopiuj link do OBS i wklej go poniżej.")
             self.wizard_entry.insert(0, self.config.get("tipply_token", ""))
             self.btn_wiz_back.configure(state="normal")
             self.btn_wiz_next.configure(text="Zakończ konfigurację")
